@@ -1,0 +1,62 @@
+/* font css file import */
+@import url(./fonts.css);
+
+@import url(./partials/_variables.css);
+
+.header_area .main-menu .navbar-brand{
+    padding: 0 2rem0 5rem;
+
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font: normal 500 15px/2px var(--roboto);
+    text-transform: uppercase;
+    padding: 500px;
+    color: var(--title-color);
+
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+.navbar a{
+    padding: 0px 100px;
+}
+marquee{
+    background-color:#3b5998;
+    padding:12px 24px;
+    font-size: 25px;
+    color: white;
+
+  }
+.top-wrapper img{
+    height: 300px;
+    background-color: lightsteelblue;
+}
+.top-wrapper p{
+     font-size: 25px;
+ }
+.top-wrapper h2{
+    color: red;
+}
+.container h2{
+    color:seagreen;
+}
+.container h4{
+    color: blue;
+}
+.container li{
+    font-size: 18px;
+}
